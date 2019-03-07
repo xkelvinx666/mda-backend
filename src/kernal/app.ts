@@ -1,9 +1,11 @@
-import General from '../general/app';
-import User from '../user/app';
+import General from '../app/general/app';
+import User from '../app/user/app';
+import Field from '../app/field/app';
 
 const APPS: Array<Function> = [
     General,
-    User
+    User,
+    Field
 ];
 
 export default APPS;

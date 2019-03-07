@@ -1,6 +1,6 @@
 import { BaseContext } from 'koa';
 import * as jwt from 'jsonwebtoken';
-import { config } from '../../config';
+import { config } from '../../../config';
 
 export default class GeneralController {
 
