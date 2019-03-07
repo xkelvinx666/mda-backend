@@ -16,6 +16,9 @@ Thumbs.db
 
 # Ignore built ts files
 dist/**/*
+public/
 
 # Logging files
 *.log
+
+DEVELOPING.md
